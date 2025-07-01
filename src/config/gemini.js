@@ -1,6 +1,3 @@
-
-
-
 // node --version # Should be >= 18
 // npm install @google/generative-ai
 
@@ -58,8 +55,6 @@
 
 //  export default runChat;
 
-
-
 // Make sure Node version >= 18
 // Install: npm install @google/generative-ai
 
@@ -113,7 +108,6 @@ async function runChat(prompt) {
     const response = await result.response.text();
     console.log(response);
     return response;
-
   } catch (error) {
     console.error("Gemini Error:", error);
     return "❌ Gemini failed to respond. Please try again.";
